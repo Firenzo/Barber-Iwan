@@ -119,6 +119,10 @@ nav{
 
 }
 
+nav>ul{
+	margin-top:6.2rem;
+}
+
 nav.open{
 	visibility: visible;
 	opacity: 1;
