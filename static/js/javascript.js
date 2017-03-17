@@ -46,6 +46,9 @@ $(document).ready(function() {
 		app.scroll = {
 			init: function(){
 				$('a').click(function(){
+					if (window.innerWidth <= 800) {
+						app.menu.closeMenu();
+					};
     				$('html, body').animate({
         			scrollTop: $( $(this).attr('href') ).offset().top
     			}, 700);
