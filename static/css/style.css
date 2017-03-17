@@ -162,6 +162,19 @@ nav>ul>li>a:hover{
 	z-index: 6;
 	color:#fff;
 	background:#000;
+	right:3rem;
+}
+
+#hamburger{
+	width:1.2rem;
+	margin-right:0.6rem;
+	display:inline-block;
+}
+
+#X-Icon{
+	width:1.2rem;
+	margin-left:0.6rem;
+	display:inline-block;
 }
 
 

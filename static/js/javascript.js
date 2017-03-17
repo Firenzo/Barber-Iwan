@@ -77,11 +77,13 @@ $(document).ready(function() {
 
 			openMenu: function(){
   				$( "nav" ).removeClass( "closed" ).addClass( "open" );
+  				$("button.menuButton").html("Sluiten <img src='static/img/icons/Close.svg' id='X-Icon'>");
   				app.vars.menu = 1;
 			},
 
 			closeMenu: function(){
 				$( "nav" ).removeClass( "open" ).addClass( "closed" );
+				$("button.menuButton").html("<img src='static/img/icons/Menu.svg' id='hamburger'>Menu");
 				app.vars.menu = 0;
 			}
 		}
