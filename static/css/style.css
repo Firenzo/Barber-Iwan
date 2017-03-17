@@ -85,6 +85,9 @@ div#contactinfo{
 	width:3rem;
 }
 
+.menuButton{
+	display: none;
+}
 
 
 @media (max-width: 799px) {
@@ -99,6 +102,62 @@ section#cover{
 
 div#icons{
 	width:6rem;
+}
+
+nav{
+	width: 100vw;
+	height:100vh;
+	background: rgba(0,0,0,0.9);
+	position: fixed;
+	top:0;
+	left:0;
+	z-index:5;
+	visibility: visible;
+	opacity: 1;
+
+	transition: opacity 0.4s ease
+
+}
+
+nav.open{
+	visibility: visible;
+	opacity: 1;
+}
+
+nav.closed{
+	visibility: hidden;
+	opacity:0;
+	transition: opacity 0.4s ease, visibility 0.4s ease 0.4s;
+}
+
+nav>ul{
+}
+
+nav>ul>li{
+	display:block;
+	text-align: center;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	width:100vw;
+}
+
+nav>ul>li:hover{
+	background:#ababab;
+}
+
+nav>ul>li>a{
+	font-size: 3rem;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 0.6rem;
+}
+
+.menuButton{
+	display: block;
+	position: fixed;
+	z-index: 6;
+	color:#fff;
+	background:#000;
 }
 
 

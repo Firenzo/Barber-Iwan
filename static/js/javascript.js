@@ -9,11 +9,14 @@ $(document).ready(function() {
 				app.checkWindow.resize();
 				app.checkWindow.width();
 				app.scroll.init();
+				app.menu.init();
 
 			}
 		},
 
 		app.vars = {
+
+			menu:0
 
 		},
 
@@ -47,7 +50,36 @@ $(document).ready(function() {
         			scrollTop: $( $(this).attr('href') ).offset().top
     			}, 700);
     			return false;
-});
+				});
+			}
+		},
+
+		app.menu = {
+
+			init: function(){
+				this.checkMenu();
+			},
+
+			checkMenu: function(){
+				$("button.menuButton").click(function() {
+					if (window.innerWidth <= 800) {
+						if (app.vars.menu == 0){
+							app.menu.openMenu();
+						} else{
+							app.menu.closeMenu();
+						}
+					}
+				}
+			)},
+
+			openMenu: function(){
+  				$( "nav" ).removeClass( "closed" ).addClass( "open" );
+  				app.vars.menu = 1;
+			},
+
+			closeMenu: function(){
+				$( "nav" ).removeClass( "open" ).addClass( "closed" );
+				app.vars.menu = 0;
 			}
 		}
 
