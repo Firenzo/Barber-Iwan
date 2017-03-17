@@ -130,22 +130,12 @@ nav.closed{
 	transition: opacity 0.4s ease, visibility 0.4s ease 0.4s;
 }
 
-nav>ul{
-}
-
-nav>ul>li{
+nav>ul>li>a{
 	display:block;
 	text-align: center;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 	width:100vw;
-}
-
-nav>ul>li:hover{
-	background:#333;
-}
-
-nav>ul>li>a{
 	font-size: 2.3rem;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -153,6 +143,7 @@ nav>ul>li>a{
 }
 
 nav>ul>li>a:hover{
+	background:#333;
 	color:#fff;
 }
 
@@ -163,6 +154,11 @@ nav>ul>li>a:hover{
 	color:#fff;
 	background:#000;
 	right:3rem;
+}
+
+.menuButton:hover{
+	color:#fff;
+	border: 1px solid #bbb;
 }
 
 #hamburger{
