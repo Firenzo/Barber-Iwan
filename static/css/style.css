@@ -114,6 +114,7 @@ nav{
 	z-index:5;
 	visibility: visible;
 	opacity: 1;
+	overflow:scroll;
 
 	transition: opacity 0.4s ease
 
