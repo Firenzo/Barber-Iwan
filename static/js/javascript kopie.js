@@ -6,8 +6,8 @@ $(document).ready(function() {
 
 		app.controller = {
 			init: function(){
-				//app.checkWindow.resize();
-				//app.checkWindow.width();
+				app.checkWindow.resize();
+				app.checkWindow.width();
 				app.scroll.init();
 				app.menu.init();
 
@@ -46,7 +46,9 @@ $(document).ready(function() {
 		app.scroll = {
 			init: function(){
 				$('a').click(function(){
-					app.menu.closeMenu();
+					if (window.innerWidth <= 800) {
+						app.menu.closeMenu();
+					};
     				$('html, body').animate({
         			scrollTop: $( $(this).attr('href') ).offset().top
     			}, 700);
@@ -63,10 +65,12 @@ $(document).ready(function() {
 
 			checkMenu: function(){
 				$("button.menuButton").click(function() {
-					if (app.vars.menu == 0){
+					if (window.innerWidth <= 800) {
+						if (app.vars.menu == 0){
 							app.menu.openMenu();
-					} else{
+						} else{
 							app.menu.closeMenu();
+						}
 					}
 				}
 			)},
