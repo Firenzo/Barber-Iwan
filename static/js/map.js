@@ -1,7 +1,7 @@
 function initMap() {
         var Variaty = {lat: 52.368748, lng: 5.273911};
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 18,
+          zoom: 17,
           center: Variaty,
           draggable:true,
           disableDefaultUI: true,
