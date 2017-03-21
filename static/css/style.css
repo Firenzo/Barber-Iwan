@@ -117,7 +117,7 @@ img{
 	text-decoration: underline;
 }
 
-#contactinfo_block p:nth-of-type(1){
+#contactinfo_block p:nth-of-type(1),#contactinfo_block p:nth-of-type(2){
 	line-height: 2.5rem;
 }
 
@@ -130,7 +130,7 @@ div#icons{
 
 div#icons img{
 	display:block;
-	padding-bottom:4rem;
+	padding-bottom:4.5rem;
 }
 
 div#contactinfo{
@@ -178,6 +178,12 @@ a.button:hover{
 
 #logo{
 	width:28rem;
+}
+
+div#icons{
+	display:inline-block;
+	width:15%;
+	vertical-align: top;
 }
 
 section#cover{ 
