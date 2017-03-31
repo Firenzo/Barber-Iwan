@@ -105,6 +105,11 @@ nav>ul>li>a:hover{
 
 img{
 	width:100%;
+
+}
+
+img.inline{
+	border-radius: 5px;
 }
 
 #map{
