@@ -268,7 +268,7 @@ ul#instagram li.instagram-photo{
 /*------------------------------------------------------------------------------------*/
 @media (max-width: 600px){
 	section#cover{
-
+		height:200px;
 	}
 
 	#logo{
