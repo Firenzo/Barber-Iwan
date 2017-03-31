@@ -233,6 +233,16 @@ a.button>img{
 		margin:auto;
 		min-width: 100%;
 	}
+
+	nav>ul>li>a{
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		font-size: 1.5rem;
+		text-transform: uppercase;
+		font-weight: 300;
+		letter-spacing: 0.6rem;
+		color:#fff;
+	}
 }
 
 
