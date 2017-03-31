@@ -3,7 +3,7 @@ body{
 }
 
 section{
-	padding-top:5rem;
+	padding-top:3rem;
 	padding-bottom:5rem;
 
 }
@@ -206,7 +206,7 @@ a.button>img{
 	  	-moz-background-size: cover;
 	  	-o-background-size: cover;
 	  	background-size: cover;
-		height:310px;
+		height:280px;
 	}
 
 	#logo{
@@ -239,7 +239,7 @@ a.button>img{
 @media (min-width:651px) and (max-width: 749px) {
 
 #logo{
-	width:28rem;
+	width:33rem;
 }
 
 div#icons{
@@ -249,15 +249,29 @@ div#icons{
 }
 
 section#cover{ 
-	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 86%, rgba(0,0,0,1) 100%),url(../img/Cover.jpg) no-repeat -32rem top; /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 86%,rgba(0,0,0,1) 100%),url(../img/Cover.jpg) no-repeat -32rem top;
-	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 86%,rgba(0,0,0,1) 100%),url(../img/Cover.jpg) no-repeat -32rem top; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ 
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 86%, rgba(0,0,0,1) 100%),url(../img/Cover.jpg) no-repeat -25rem top; /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 86%,rgba(0,0,0,1) 100%),url(../img/Cover.jpg) no-repeat -25rem top;
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 86%,rgba(0,0,0,1) 100%),url(../img/Cover.jpg) no-repeat -25rem top; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
 	height:375px;
 }
+
+	ul#instagram li.instagram-photo{
+		width:90%;
+		display:block;
+		margin:auto;
+		margin-bottom:2rem;
+	}
+
+	a.button{
+		display:block;
+		text-align: center;
+		margin:auto;
+		min-width: 100%;
+	}
 
 
 
