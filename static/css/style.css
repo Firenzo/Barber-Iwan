@@ -161,7 +161,11 @@ ul#instagram li.instagram-photo{
 	list-style: none;
 	display:inline-block;
 	vertical-align: top;
-	width:25%;
+	width:33.3333%;
+}
+
+ul#instagram li.instagram-photo img{
+	width:96%;
 }
 
 a.button{
@@ -333,3 +337,33 @@ section#cover{
 
 
 }
+
+@media (min-width: 1051px) and (max-width: 1299px){
+
+	section#cover{
+		height:400px;
+	}
+
+}
+
+@media (min-width: 1300px) and (max-width: 1500px){
+
+	section#cover{
+		height:500px;
+	}
+
+}
+
+
+
+@media (min-width: 1920px){
+
+	section#cover{
+		height:800px;
+	}
+}
+
+
+
+
+

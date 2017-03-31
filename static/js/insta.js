@@ -1,5 +1,5 @@
-var token = '191053672.d8ae936.d3c3d15a89e94b6f9a6ad617cff8f675', // learn how to obtain it below
-    userid = 191053672, // User ID - get it in source HTML of your Instagram profile or look at the next example :)
+var token = '4955327784.87b141b.b291bea9901d4c2593db7d319b0bb63d', // learn how to obtain it below
+    userid = 4955327784, // User ID - get it in source HTML of your Instagram profile or look at the next example :)
     num_photos = 8; // how much photos do you want to get
  
 $.ajax({
