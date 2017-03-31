@@ -128,7 +128,6 @@ img.inline{
 	line-height: 2.5rem;
 }
 
-
 div#icons{
 	display:inline-block;
 	width:25%;
@@ -144,6 +143,10 @@ div#contactinfo{
 	display:inline-block;
 	width:75%;
 	vertical-align: top;
+}
+
+div#contactinfo p:nth-of-type(4){
+	margin-top:3.7rem;
 }
 
 .small-icon{
@@ -174,6 +177,13 @@ a.button{
 a.button:hover{
 	color:#fff;
 	background: #0e9278;
+}
+
+a.button>img{
+	width:2.4rem;
+	margin-right:1.4rem;
+	display:inline;
+	vertical-align: -15%;
 }
 
 
@@ -293,6 +303,15 @@ section#cover{
   	background-size: cover;
 	height:375px;
 }
+
+div#icons img:nth-of-type(3){
+	margin-top:1.3rem;
+	padding-bottom: 4.3rem;
+}
+
+
+
+
 
 
 }
