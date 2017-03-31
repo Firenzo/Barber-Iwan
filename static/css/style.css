@@ -206,7 +206,7 @@ a.button>img{
 	  	-moz-background-size: cover;
 	  	-o-background-size: cover;
 	  	background-size: cover;
-		height:290px;
+		height:310px;
 	}
 
 	#logo{
@@ -214,7 +214,7 @@ a.button>img{
 		display:block;
 		margin-left:auto;
 		margin-right: auto;
-		width:90%;
+		width:40rem;
 		margin-top:5.5rem;
 		float:none;
 
