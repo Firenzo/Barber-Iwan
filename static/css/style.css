@@ -207,9 +207,9 @@ p>a{
 @media (max-width: 350px){
 
 	section#cover{
-		background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 98%, rgba(0,0,0,1) 100%),url(../img/Cover.jpg) no-repeat left top; /* FF3.6-15 */
-		background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 98%,rgba(0,0,0,1) 100%),url(../img/Cover.jpg) no-repeat left top;
-		background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 98%,rgba(0,0,0,1) 100%),url(../img/Cover.jpg) no-repeat left top; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ 
+		background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 60%, rgba(0,0,0,1) 100%),url(../img/Cover-mobile.jpg) no-repeat left top; /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 60%,rgba(0,0,0,1) 100%),url(../img/Cover-mobile.jpg) no-repeat left top;
+		background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 60%,rgba(0,0,0,1) 100%),url(../img/Cover-mobile.jpg) no-repeat left top; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ 
 	  	-webkit-background-size: cover;
 	  	-moz-background-size: cover;
 	  	-o-background-size: cover;
@@ -253,9 +253,9 @@ p>a{
 @media (min-width: 351px) and (max-width: 650px){
 
 	section#cover{
-		background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 98%, rgba(0,0,0,1) 100%),url(../img/Cover.jpg) no-repeat left top; /* FF3.6-15 */
-		background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 98%,rgba(0,0,0,1) 100%),url(../img/Cover.jpg) no-repeat left top;
-		background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 98%,rgba(0,0,0,1) 100%),url(../img/Cover.jpg) no-repeat left top; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ 
+		background: -moz-linear-gradient(top, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%),url(../img/Cover-mobile.jpg) no-repeat left top; /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(0,0,0,0) 60%,rgba(0,0,0,1) 100%,rgba(0,0,0,1) 100%),url(../img/Cover-mobile.jpg) no-repeat left top;
+		background: linear-gradient(to bottom, rgba(0,0,0,0) 60%,rgba(0,0,0,1) 100%,rgba(0,0,0,1) 100%),url(../img/Cover-mobile.jpg) no-repeat left top; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ 
 	  	-webkit-background-size: cover;
 	  	-moz-background-size: cover;
 	  	-o-background-size: cover;
