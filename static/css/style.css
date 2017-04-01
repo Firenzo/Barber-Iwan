@@ -243,9 +243,9 @@ p>a{
 	}
 
 	nav>ul>li>a{
-		padding-top: 2.5rem;
-		padding-bottom: 2.5rem;
-		font-size: 2.1rem;
+		padding-top: 1.2rem;
+		padding-bottom: 1.2rem;
+		font-size: 1.6rem;
 	}
 
 }
@@ -289,9 +289,9 @@ p>a{
 	}
 
 	nav>ul>li>a{
-		padding-top: 1.2rem;
-		padding-bottom: 1.2rem;
-		font-size: 1.6rem;
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+		font-size: 2.1rem;
 	}
 }
 
