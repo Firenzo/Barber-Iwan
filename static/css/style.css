@@ -7,6 +7,10 @@ body{
 	width:58px;
 }
 
+section#likeButton div.row>div{
+	width:100%;
+}
+
 section{
 	padding-top:3rem;
 	padding-bottom:5rem;
