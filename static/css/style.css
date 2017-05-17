@@ -8,8 +8,7 @@ body{
 }
 
 section#likeButton div.row>div{
-	width:100%;
-	background: blue;
+	width:100% !important;
 }
 
 section{
