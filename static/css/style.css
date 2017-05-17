@@ -3,8 +3,8 @@ body{
 }
 
 ._54ru{
-	height:58px;
-	width:58px;
+	height:58px !important;
+	width:58px !important;
 }
 
 section#likeButton div.row>div{
