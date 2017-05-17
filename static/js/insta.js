@@ -21,3 +21,4 @@ $.ajax({
 		console.log(data); // send the error notifications to console
 	}
 });
+
