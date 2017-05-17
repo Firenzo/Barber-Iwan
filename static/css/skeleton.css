@@ -122,7 +122,7 @@ html {
   font-size: 62.5%; }
 body {
   font-size: 1.8em; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 3.5rem;
+  line-height: 3rem;
   font-weight: 400;
   font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #B1B1B1; }
