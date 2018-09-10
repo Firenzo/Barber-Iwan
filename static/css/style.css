@@ -112,6 +112,10 @@ nav>ul>li>a:hover{
 	border:none;
 }
 
+.menuButton.no-border:hover{
+	background:none;
+}
+
 #hamburger{
 	width:1.2rem;
 	margin-right:0.6rem;
