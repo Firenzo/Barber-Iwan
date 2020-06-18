@@ -5,7 +5,7 @@ var token = '4955327784.87b141b.cc6b6f4b054b4b358a9d0310d4c12c42', // learn how 
     //b291bea9901d4c2593db7d319b0bb63d
  
 $.ajax({
-	url: 'https://api.instagram.com/v1/users/' + userid + '/media/recent', // or /users/self/media/recent for Sandbox
+	url: 'https://api.instagram.com/v1/users/self/media/recent?access_token=' + token + '&count=' + num_photos + '&callback=mishaProcessResult', //'https://api.instagram.com/v1/users/' + userid + '/media/recent', // or /users/self/media/recent for Sandbox
 	dataType: 'jsonp',
 	type: 'GET',
 	data: {access_token: token, count: num_photos},
