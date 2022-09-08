@@ -1,9 +1,0 @@
-{
-  "name": "barber-iwan-site",
-  "short_name": "barber-iwan-site",
-  "icons": [],
-  "start_url": "/new-site/?standalone=true",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "lang": "en"
-}
